@@ -1,6 +1,6 @@
 import { Github } from 'lucide-react';
 import weather from "../assets/weather.png";
-import ecoLabs from "../assets/ecoLabs.png";
+// import ecoLabs from "../assets/ecoLabs.png";
 import tictac from "../assets/tictac.png";
 import calculator from "../assets/cal.png";
 import { Link } from 'react-router-dom';
@@ -15,14 +15,14 @@ const Projects = () => {
       github: '#',
       demo: 'https://sagarweather.netlify.app/'
     },
-    {
-      title: 'EcoLabs Project',
-      description: 'A productivity app for managing tasks and projects with drag-and-drop functionality and real-time updates.',
-      technologies: ['React.js', 'Redux', 'CSS3', 'Firebase'],
-      image: ecoLabs,
-      github: '#',
-      demo: 'https://fascinating-pavlova-51f685.netlify.app/'
-    },
+    // {
+    //   title: 'EcoLabs Project',
+    //   description: 'A productivity app for managing tasks and projects with drag-and-drop functionality and real-time updates.',
+    //   technologies: ['React.js', 'Redux', 'CSS3', 'Firebase'],
+    //   image: ecoLabs,
+    //   github: '#',
+    //   demo: 'https://fascinating-pavlova-51f685.netlify.app/'
+    // },
     {
       title: 'TicTacToe Project',
       description: 'A responsive weather application that displays current weather and forecasts using external APIs.',
