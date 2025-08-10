@@ -33,49 +33,34 @@ const About = () => {
 
             <div className="space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
               <p className="text-lg">
-                I'm a passionate frontend developer with expertise in{" "}
-                <span className="font-semibold text-[#00D1F7] dark:text-blue-400">
-                  React.js
-                </span>{" "}
-                and modern web technologies. I love creating intuitive user
-                interfaces and seamless user experiences that make a real
-                difference in people's lives.
-              </p>
-
-              <p className="text-lg">
-                Currently, I'm a Frontend Developer Intern at{" "}
-                <b className="text-[#61B5E2]">OTSi</b>, where I work on
-                real-world web applications while pursuing my MCA from
-                Chandigarh University. I have a strong foundation in{" "}
-                <span className="text-[#DD4B25] font-semibold">HTML</span>,{" "}
+                I am a passionate Frontend Developer with hands-on industry
+                experience gained during my internship at{" "}
+                <b className="text-[#61B5E2]">OTSi</b>, where I contributed to
+                the development team of real-world web applications. Proficient
+                in <span className="text-[#DD4B25] font-semibold">HTML</span>,{" "}
                 <span className="text-[#146EB0] font-semibold">CSS</span>,{" "}
                 <span className="text-[#EAB925] font-semibold">JavaScript</span>
-                , and <span className="text-blue-400 font-semibold">React</span>
-                , and I'm expanding my skill set by learning the MERN Stack,
-                including{" "}
-                <span className="text-[#4DA53F] font-semibold">MongoDB</span>,{" "}
-                <span className="text-[#8BBF3F] font-semibold">Express.js</span>
-                , and{" "}
-                <span className="text-[#3C823C] font-semibold">Node.js</span>.
-              </p>
-
-              <p className="text-lg">
-                With a strong foundation in{" "}
-                <span className="font-semibold text-yellow-600 dark:text-yellow-400">
-                  JavaScript
-                </span>
-                ,{" "}
-                <span className="font-semibold text-blue-600 dark:text-blue-400">
-                  TypeScript
-                </span>
-                , and CSS frameworks like{" "}
+                , <span className="text-blue-400 font-semibold">React.js</span>,
+                and CSS frameworks like{" "}
                 <span className="font-semibold text-teal-600 dark:text-teal-400">
                   Tailwind CSS
-                </span>
-                , I focus on writing clean, maintainable code and staying
-                up-to-date with the latest industry trends and best practices.
+                </span>{" "}
+                I am continuously enhancing my expertise by mastering the{" "}
+                <span className="text-[#4DA53F] font-semibold">M</span>
+                <span className="text-[#8BBF3F] font-semibold">E</span>
+                <span className="text-blue-400 font-semibold">R</span>
+                <span className="text-[#3C823C] font-semibold">N</span> Stack —{" "}
+                <span className="text-[#4DA53F] font-semibold">MongoDB</span>,{" "}
+                <span className="text-[#8BBF3F] font-semibold">Express.js</span>
+                , <span className="text-blue-400 font-semibold">React.js</span>,
+                and{" "}
+                <span className="text-[#3C823C] font-semibold">Node.js</span> —
+                while pursuing my{" "}
+                <span className="text-white font-bold">MCA</span> at{" "}
+                <span className="text-red-500">Chandigarh University (CU)</span>
+                . My focus is on building clean, responsive, and user-friendly
+                interfaces that deliver seamless digital experiences.
               </p>
-
               <p className="text-lg">
                 When I'm not coding, you'll find me exploring new technologies,
                 experimenting with projects, and continuously learning to stay
@@ -151,7 +136,10 @@ const About = () => {
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
               <div className="relative w-80 h-80 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-full flex items-center justify-center hover-scale transition-all duration-500 shadow-2xl">
-                <Code size={80} className="text-white absolute bottom-2 drop-shadow-lg" />
+                <Code
+                  size={80}
+                  className="text-white absolute bottom-2 drop-shadow-lg"
+                />
                 <img src={me} className="rounded-full" />
               </div>
 

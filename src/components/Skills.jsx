@@ -59,10 +59,10 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={skill.name}
-              className="group bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-2xl border border-gray-200 dark:border-gray-700 transition-all duration-500 hover-scale"
+              className="group bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-5 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl border border-gray-200 dark:border-gray-700 transition-all duration-500 hover-scale"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center justify-between mb-4 sm:mb-6">
                 <div className="flex items-center space-x-4">
                   <div className="text-3xl p-3 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-600 rounded-xl group-hover:scale-110 transition-transform duration-300">
                     {skill.icon}
@@ -87,9 +87,9 @@ const Skills = () => {
               </div>
 
               <div className="relative">
-                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 overflow-hidden">
+                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3 sm:h-4 overflow-hidden">
                   <div
-                    className={`h-4 bg-gradient-to-r ${skill.color} rounded-full transition-all duration-1000 ease-out relative overflow-hidden`}
+                    className={`h-3 sm:h-4 bg-gradient-to-r ${skill.color} rounded-full transition-all duration-1000 ease-out relative overflow-hidden`}
                     style={{
                       width: isVisible ? `${skill.percentage}%` : '0%',
                       transitionDelay: `${index * 200}ms`
@@ -99,7 +99,7 @@ const Skills = () => {
                   </div>
                 </div>
                 <div
-                  className="absolute top-0 h-4 w-1 bg-white rounded-full shadow-lg transition-all duration-1000 ease-out"
+                  className="absolute top-0 h-3 sm:h-4 w-1 bg-white rounded-full shadow-lg transition-all duration-1000 ease-out"
                   style={{
                     left: isVisible ? `calc(${skill.percentage}% - 2px)` : '0%',
                     transitionDelay: `${index * 200}ms`

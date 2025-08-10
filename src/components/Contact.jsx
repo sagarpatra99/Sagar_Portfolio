@@ -41,24 +41,24 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-12">
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                 Let's Connect
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-0 sm:mb-6">
                 I'm always interested in new opportunities and exciting projects. 
                 Whether you have a question or just want to say hi, feel free to reach out!
               </p>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4 hidden sm:block">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
                   <span className="text-blue-600 dark:text-blue-400 font-semibold">@</span>
                 </div>
-                <span className="text-gray-700 dark:text-gray-300">your.email@example.com</span>
+                <span className="text-gray-700 dark:text-gray-300">sagarpatra641@gmail.com</span>
               </div>
 
               <div className="flex items-center space-x-3">
