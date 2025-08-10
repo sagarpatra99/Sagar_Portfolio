@@ -1,7 +1,7 @@
 import { Github } from 'lucide-react';
 import weather from "../assets/weather.png";
 // import ecoLabs from "../assets/ecoLabs.png";
-import tictac from "../assets/tictac.png";
+import tictac from "../assets/TicTac.png";
 import calculator from "../assets/cal.png";
 import { Link } from 'react-router-dom';
 
