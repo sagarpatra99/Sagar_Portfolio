@@ -117,10 +117,10 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 dark:text-gray-300 flex items-center space-x-2 mb-4 md:mb-0">
               <span>
-                © {currentYear}
+                © {currentYear}{" "}
                 <Link
                   to="https://www.linkedin.com/in/thesagarpatra/"
-                  className="hover:text-blue-600"
+                  className="text-blue-500 hover:text-blue-600"
                 >
                   Sagar Patra
                 </Link>{" "}
@@ -131,7 +131,7 @@ const Footer = () => {
                 className="text-red-500 animate-pulse"
                 fill="currentColor"
               />
-              <span>and lots of coffee.</span>
+              {/* <span>and lots of coffee.</span> */}
             </p>
 
             <button

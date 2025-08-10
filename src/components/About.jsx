@@ -6,15 +6,15 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300 relative overflow-hidden"
+      className="pt-6 pb-12 sm:py-20 bg-white dark:bg-gray-900 transition-colors duration-300 relative overflow-hidden"
     >
       {/* Background decorations */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-gradient-to-r from-blue-400/10 to-purple-500/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-gradient-to-r from-pink-400/10 to-red-500/10 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 dark:from-white dark:to-blue-200 bg-clip-text text-transparent mb-6">
+        <div className="text-center mb-4 sm:mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 dark:from-white dark:to-blue-200 bg-clip-text text-transparent mb-2 sm:mb-6">
             About Me
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
@@ -26,7 +26,7 @@ const About = () => {
               <div>
                 <img src={user} alt="" height={60} width={60} />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
+              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
                 Frontend Developer
               </h3>
             </div>

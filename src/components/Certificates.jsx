@@ -80,11 +80,11 @@ const Certificates = () => {
   return (
     <section
       id="certificates"
-      className="py-20 bg-gradient-to-br from-white via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-slate-900 dark:to-indigo-950 transition-all duration-500"
+      className="py-6 sm:py-20 bg-gradient-to-br from-white via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-slate-900 dark:to-indigo-950 transition-all duration-500"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 dark:from-white dark:to-blue-200 bg-clip-text text-transparent mb-6">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 dark:from-white dark:to-blue-200 bg-clip-text text-transparent mb-2 sm:mb-6">
             Certificates & Achievements
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6 rounded-full"></div>
@@ -161,7 +161,7 @@ const Certificates = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center space-x-8 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm px-8 py-6 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg">
+          <div className="inline-flex items-center space-x-4 sm:space-x-8 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm px-4 py-6 sm:px-8 sm:py-6 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg">
             <div>
               <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
                 {certificates.length}

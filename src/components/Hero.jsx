@@ -19,8 +19,8 @@ const Hero = () => {
             <span className="text-4xl font-bold text-white">SP</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent">
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Sagar Patra</span>
+          <h1 className="text-2xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent">
+            Hello, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Sagar Patra</span><span className="text-black dark:text-white">&#128075;</span>
           </h1>
           
           <div className="mb-6">
@@ -79,7 +79,7 @@ const Hero = () => {
             </button> */}
           </div>
 
-          <div className="flex justify-center space-x-6">
+          <div className="flex justify-center space-x-6 mb-6 sm:mb-0">
             <Link to="https://github.com/sagarpatra99" className="group p-4 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 hover-scale">
               <Github size={24} className="group-hover:rotate-12 transition-transform duration-300" />
             </Link>

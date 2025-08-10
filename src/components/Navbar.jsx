@@ -19,7 +19,7 @@ const Navbar = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Certificates_Paper', href: '#certificates' },
+    { name: 'Certificates', href: '#certificates' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -64,9 +64,9 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <button
               onClick={toggleTheme}
-              className="p-2 cursor-pointer rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
+              className={`p-2 cursor-pointer rounded-lg transition-all duration-300 ${isDark ? "bg-white text-yellow-500 hover:bg-amber-400 hover:text-white" : "bg-gray-800 hover:bg-white hover:text-gray-800 text-white"}`}
             >
-              {isDark ? <Sun size={20} /> : <Moon size={20} />}
+              {isDark ? <Sun size={20} /> : <Moon size={20} className="" />}
             </button>
 
             {/* Mobile menu button */}
