@@ -41,7 +41,7 @@ const Certificates = () => {
       color: "from-yellow-300 to-yellow-600",
       icon: <IoLogoJavascript />,
       image: javascript,
-      link: "https://trainings.internshala.com/view_certificate/643r6i5b0wn/7jx010ql53v/",
+      link: "https://trainings.internshala.com/view_certificate/huyooo7nsat/5l24r1nbgcv/",
     },
     {
       title: "Git and GitHub: Mastering Version Control",

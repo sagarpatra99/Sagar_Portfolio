@@ -1,12 +1,13 @@
 import { Github, Linkedin, Mail, Heart, ArrowUp } from "lucide-react";
 import { Link } from "react-router-dom";
+import ScrollToTopButton from "./ScrollToTop";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
 
   const footerLink = [
     {
@@ -40,10 +41,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+            <h3 className="text-lg sm:text-3xl font-bold mb-2 sm:mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
               Sagar's Portfolio
             </h3>
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-lg">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 sm:text-lg">
               Frontend React.js Developer passionate about creating amazing web
               experiences. Let's build something incredible together.
             </p>
@@ -113,9 +114,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-300 dark:border-gray-700/50 mt-10 pt-4">
+        <div className="border-t-2 border-red-600 dark:border-gray-200 mt-4 sm:mt-10 pt-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-600 dark:text-gray-300 flex items-center space-x-2 mb-4 md:mb-0">
+            <p className="text-gray-600 dark:text-gray-300 flex items-center space-x-2 sm:mb-4 md:mb-0">
               <span>
                 © {currentYear}{" "}
                 <Link
@@ -134,16 +135,16 @@ const Footer = () => {
               {/* <span>and lots of coffee.</span> */}
             </p>
 
-            <button
+            {/* <button
               onClick={scrollToTop}
-              className="group flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-xl text-white transition-all duration-300"
+              className="fixed right-4 bottom-12 bg-blue-600 hover:bg-blue-700 p-4 rounded-full text-white transition-all duration-300"
             >
               <ArrowUp
                 size={16}
                 className="group-hover:-translate-y-1 transition-transform duration-300"
               />
-              <span>Back to Top</span>
-            </button>
+            </button> */}
+            <ScrollToTopButton/>
           </div>
         </div>
       </div>

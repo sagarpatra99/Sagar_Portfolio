@@ -1,6 +1,6 @@
 import { Github } from 'lucide-react';
 import weather from "../assets/weather.png";
-// import ecoLabs from "../assets/ecoLabs.png";
+import ecoLabs from "../assets/ecoLabs.png";
 import tictac from "../assets/TicTac.png";
 import calculator from "../assets/cal.png";
 import { Link } from 'react-router-dom';
@@ -12,23 +12,23 @@ const Projects = () => {
       description: 'A modern e-commerce platform built with React.js, featuring user authentication, shopping cart, and payment integration.',
       technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
       image: weather,
-      github: '#',
+      github: 'https://github.com/sagarpatra99/Weather-App',
       demo: 'https://sagarweather.netlify.app/'
     },
-    // {
-    //   title: 'EcoLabs Project',
-    //   description: 'A productivity app for managing tasks and projects with drag-and-drop functionality and real-time updates.',
-    //   technologies: ['React.js', 'Redux', 'CSS3', 'Firebase'],
-    //   image: ecoLabs,
-    //   github: '#',
-    //   demo: 'https://fascinating-pavlova-51f685.netlify.app/'
-    // },
+    {
+      title: 'EcoLabs Project',
+      description: 'A productivity app for managing tasks and projects with drag-and-drop functionality and real-time updates.',
+      technologies: ['React.js', 'Redux', 'CSS3', 'Firebase'],
+      image: ecoLabs,
+      github: 'https://github.com/sagarpatra99/Online-Course-Project',
+      demo: 'https://fascinating-pavlova-51f685.netlify.app/'
+    },
     {
       title: 'TicTacToe Project',
       description: 'A responsive weather application that displays current weather and forecasts using external APIs.',
       technologies: ['React.js', 'API Integration', 'Chart.js', 'CSS3'],
       image: tictac,
-      github: '#',
+      github: 'https://github.com/sagarpatra99/Tic-Tac-Toe-Game',
       demo: 'https://taupe-licorice-6d6e68.netlify.app/'
     },
     {
@@ -36,7 +36,7 @@ const Projects = () => {
       description: 'A responsive portfolio website showcasing my projects and skills with modern design and animations.',
       technologies: ['React.js', 'Tailwind CSS', 'Framer Motion'],
       image: calculator,
-      github: '#',
+      github: 'https://github.com/sagarpatra99/Calculator',
       demo: 'https://sagarcalculate.netlify.app/'
     }
   ];
