@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <button onClick={() => scrollToSection(navItems[0].href)} className="text-2xl cursor-pointer font-bold text-gray-900 dark:text-white">
+            <button onClick={() => scrollToSection(navItems[0].href)} className="text-xl sm:text-2xl cursor-pointer font-bold text-gray-900 dark:text-white">
               &lt;/Sagar&gt;
             </button>
           </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
             <div className="md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
+                className="p-2 rounded-lg dark:bg-gray-100 bg-gray-800 dark:text-gray-700 text-white"
               >
                 {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
               </button>

@@ -35,7 +35,7 @@ const About = () => {
               <p className="text-lg">
                 I am a passionate Frontend Developer with hands-on industry
                 experience gained during my internship at{" "}
-                <b className="text-[#61B5E2]">OTSi</b>, where I contributed to
+                <b className="text-[#1a83bc]">OTSi</b> Hyderabad, where I contributed to
                 the development team of real-world web applications. Proficient
                 in <span className="text-[#DD4B25] font-semibold">HTML</span>,{" "}
                 <span className="text-[#146EB0] font-semibold">CSS</span>,{" "}
@@ -56,7 +56,7 @@ const About = () => {
                 and{" "}
                 <span className="text-[#3C823C] font-semibold">Node.js</span> —
                 while pursuing my{" "}
-                <span className="text-white font-bold">MCA</span> at{" "}
+                <span className="dark:text-white font-bold">MCA</span> at{" "}
                 <span className="text-red-500">Chandigarh University (CU)</span>
                 . My focus is on building clean, responsive, and user-friendly
                 interfaces that deliver seamless digital experiences.

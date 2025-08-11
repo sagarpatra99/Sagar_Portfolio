@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
               Sagar's Portfolio
             </h3>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-lg">
