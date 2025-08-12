@@ -1,5 +1,5 @@
 import { Github } from 'lucide-react';
-import shoppy from "../assets/shoppyGLobe.png";
+import shoppy from "../assets/shoppyGlobe.png";
 import weather from "../assets/weather.png";
 import ecoLabs from "../assets/ecooLabs.png";
 import tictac from "../assets/TicTac.png";
