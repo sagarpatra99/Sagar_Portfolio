@@ -1,4 +1,5 @@
 import { Github } from 'lucide-react';
+import shoppy from "../assets/shoppyGLobe.png";
 import weather from "../assets/weather.png";
 import ecoLabs from "../assets/ecooLabs.png";
 import tictac from "../assets/TicTac.png";
@@ -7,6 +8,14 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Shoppy Globe E-Commerce Project',
+      description: 'A modern e-commerce platform built with React.js, featuring user authentication, shopping cart, and payment integration.',
+      technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+      image: shoppy,
+      github: 'https://github.com/sagarpatra99/ShoppyGlobe',
+      demo: 'https://sagarshoppyglobe.netlify.app/'
+    },
     {
       title: 'Weather App Project',
       description: 'A modern e-commerce platform built with React.js, featuring user authentication, shopping cart, and payment integration.',
