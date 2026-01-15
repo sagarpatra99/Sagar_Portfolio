@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-gradient-to-r from-pink-400/10 to-red-500/10 rounded-full blur-3xl"></div>
       <div className="text-center mb-4 sm:mb-16">
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 dark:from-white dark:to-blue-200 bg-clip-text text-transparent mb-1 xl:mb-2 sm:mb-6">
-            My Experience
+            Work - X
           </h2>
           <div className="w-30 xl:w-52 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
         </div>
