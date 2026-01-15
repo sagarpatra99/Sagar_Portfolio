@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Experience from "../components/Experience"
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Certificates from '../components/Certificates';
@@ -14,6 +15,7 @@ const Index = () => {
       <div className="min-h-screen bg-whited dark:bg-gray-900d transition-colors duration-300">
         <Navbar />
         <Hero />
+        <Experience />
         <About />
         <Skills />
         <Certificates />
