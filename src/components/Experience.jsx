@@ -18,7 +18,7 @@ const Experience = () => {
       <div className="bg-gray-200 dark:bg-[#191726] w-[90vw] xl:w-[80vw] mx-auto py-6 px-5 h-64d rounded-xl flex items-start flex-col gap-4">
         <div className="flex items-start xl:items-center flex-col xl:flex-row gap-3 xl:gap-4">
           <div className="bg-linear-65 text-xs xl:text-base text-white from-gray-300 to-gray-400 dark:from-blue-800 dark:to-cyan-900 w-fit px-4 py-2 rounded-full">
-            Jan 2025 - August - 2025
+            Jan 2025 - August 2025
           </div>
           <div className="flex items-center gap-3 text-[#054669] text-xs xl:text-base font-semibold dark:text-gray-400">
             <Briefcase /> Object Technology Solution Inc. (OTSi) | Hyderabad, Telengana, India.
